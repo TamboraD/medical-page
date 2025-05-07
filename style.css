@@ -1,0 +1,47 @@
+li {
+    list-style: none;
+}
+ul {
+    margin: 0;
+}
+body  {
+    margin: 50px 120px;  
+}
+a {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+    font-weight: 700;
+        font-size: 32px;
+        color: #021526;
+}
+.span-logo {
+    color: #0360d9;
+}
+.nav-container {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+}
+.nav-item {
+    font-weight: 500;
+        font-size: 20px;
+        color: black;
+}
+.link {
+    color: black;
+}
+.link:hover,
+.link:focus {
+    color: #0360d9;
+}
+.list-sign {
+    display: flex;
+}
