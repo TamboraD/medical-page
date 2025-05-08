@@ -7,8 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      
+    <header class="header section">
+        <div class="container container-header">
         <a class="logo" href="./index.html"> E-<span class="span-logo">sheba</span> </a>
         <nav class="nav-container"></nav>
         <ul class="nav-list">
@@ -19,12 +19,37 @@
         </ul>
       </nav>
       <ul class="list-sign">
-        <li>Log in</li>
-        <li>Sign up</li>
+        <li class="item-sign">Log in</li>
+        <li class="item-sign">Sign up</li>
       </ul>
+      </div>
     </header>
     <main>
-      <section><h2>Find & Search Your Favourite Doctor</h2></section>
+      <section class=" container-find section">
+        <div class="container">
+            <div class="container-img"><h2 class="title">Find & Search Your <span class="title-span">Favourite</span> Doctor</h2>
+            <img class="img-doctor" src="./img/doctor.png" alt=""></div>
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit viverra amet faucibus.</p>
+        <form class="form">
+            <select name="doctor" id="">
+                <option value="0">Maddie Potts</option>
+                <option value="1">Dylan Phillips</option>
+                <option value="2">Bonnie Whitaker</option>
+                <option value="3">Marcus Moses</option>
+            </select>
+            <select name="location" id="">
+                <option value="0">Hadington</option>
+                <option value="1">Grangeworth</option>
+                <option value="2">Lake Warsieros</option>
+            </select>
+        </form>
+        <ul class="list-about ">
+            <li class="item-about">24/7</li>
+            <li class="item-about">100+</li>
+            <li class="item-about">1M+</li>
+        </ul>
+    </div>
+</section>
       <section>
         <h2>Our Consulting Specialists</h2>
       </section>

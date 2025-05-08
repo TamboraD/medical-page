@@ -1,24 +1,40 @@
+body {
+    margin: 0;
+}
 li {
     list-style: none;
 }
 ul {
     margin: 0;
 }
-body  {
-    margin: 50px 120px;  
+.container  {
+    max-width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.section {
+    padding: 50px 70px;
 }
 a {
     text-decoration: none;
 }
+
+/* =====HEADER===== */
 .header {
+background-color: #E1EEFF;
+}
+.container-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+
 }
 .logo {
     font-weight: 700;
         font-size: 32px;
         color: #021526;
+        align-self: center;
 }
 .span-logo {
     color: #0360d9;
@@ -29,14 +45,19 @@ a {
 
 .nav-list {
     display: flex;
+    align-items: center;
 }
 .nav-item {
     font-weight: 500;
         font-size: 20px;
-        color: black;
+
+}
+.nav-item:not(:last-child) {
+    padding-right: 28px;
 }
 .link {
     color: black;
+    
 }
 .link:hover,
 .link:focus {
@@ -45,3 +66,61 @@ a {
 .list-sign {
     display: flex;
 }
+.item-sign {
+    font-weight: 600;
+        font-size: 20px;
+        color: #0360d9;
+border: 1px solid #0360d9;
+    border-radius: 50px;
+    width: 122px;
+    height: 51px;
+    align-content: center;
+    justify-self: center;
+    text-align: center;
+}
+.item-sign:not(:last-child) {
+    margin-right: 20px;
+}
+/* =====SECTION 1====== */
+.container-find {
+    background-color: #E1EEFF;
+}
+.title {
+    font-weight: 700;
+        font-size: 64px;
+        color: #021526;
+        max-width: 572px;
+        margin-bottom: 20px;
+}
+.title-span {
+    color: #0360d9;
+}
+.text {
+    font-weight: 400;
+        font-size: 16px;
+        color: #163048;
+        width: 419px;
+        margin-bottom: 85px;
+}
+.img-doctor {
+    position: absolute;
+top: -180px;
+left: 290px;
+}
+ .container-img {
+    position: relative;
+ }
+ .form {
+    margin-bottom: 104px;
+ }
+ .list-about {
+    display: flex;
+    height: 134px;
+    background-color: #0360d9;
+    padding: 0 0;
+}
+ .item-about {
+    font-weight: 700;
+        font-size: 64px;
+        color: #fff;
+ }
