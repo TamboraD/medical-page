@@ -6,6 +6,7 @@ li {
 }
 ul {
     margin: 0;
+    padding: 0;
 }
 .container  {
     max-width: 1158px;
@@ -115,12 +116,16 @@ left: 290px;
  }
  .list-about {
     display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
     height: 134px;
     background-color: #0360d9;
-    padding: 0 0;
+    width: 100%;
+    padding: 0 194px;
 }
  .item-about {
     font-weight: 700;
         font-size: 64px;
         color: #fff;
  }
+ 
