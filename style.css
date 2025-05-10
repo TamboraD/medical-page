@@ -8,6 +8,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+button {
+    cursor: pointer;
+}
 .container  {
     max-width: 1158px;
         margin-left: auto;
@@ -107,21 +110,57 @@ border: 1px solid #0360d9;
     position: absolute;
 top: -180px;
 left: 290px;
+z-index: 999;
+}
+.ellipse {
+    position: absolute;
+   top: 117px;
+left: 560px;
+
 }
  .container-img {
     position: relative;
  }
  .form {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 104px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+        width: 590px;
+        height: 73px;
+        background-color: #fff;
+ }
+ .form-select {
+    border: none;
+ }
+.form-select:hover,
+.form-select:focus {
+    border: none;
+   }
+ .btn {
+    border-radius: 100%;
+    width: 56px;
+        height: 56px;
+        border: none;
+        background-color: #0360d9;
+ }
+ .icon-search {
+    fill: #fff;
+        stroke: #fff;
+        width: 16px;
+        height: 16px;
+ }
+ .container-about {
+    background-color: #0360d9;
+    padding: 0;
  }
  .list-about {
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
-    height: 134px;
-    background-color: #0360d9;
+    height: 102px;
     width: 100%;
-    padding: 0 194px;
 }
  .item-about {
     font-weight: 700;
